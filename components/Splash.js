@@ -21,7 +21,7 @@ componentDidMount(){
        setTimeout(()=>this.props.navigation.navigate('Login'),2000);
      }
      else{
-       setTimeout(()=>this.props.navigation.navigate('Dashboard'),2000);
+       setTimeout(()=>this.props.navigation.navigate('StudentInfo'),2000);
      }
       });
 }

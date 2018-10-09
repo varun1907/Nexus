@@ -17,7 +17,7 @@ import {StackNavigator} from 'react-navigation';
 import Dashboard from './Dashboard.js';
 import EmailAndPhone from './EmailAndPhone.js';
 
-export default class Login extends Component<Props> {
+export default class Login extends Component {
 
   constructor(props){
     super(props);

@@ -229,6 +229,7 @@ animating={this.state.aState}/>
                        onValueChange={(itemValue, itemIndex) => this.setState({role: itemValue})}>
                        <Picker.Item itemStyle={{backgroundColor:'#ffb03e' }} label="Student" value="student" />
                        <Picker.Item label="Teacher" value="teacher" />
+                       <Picker.Item label="Other" value="other" />
                        </Picker>
                   </Animatable.View>
 

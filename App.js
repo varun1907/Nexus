@@ -16,7 +16,9 @@ import EmailConfirmation from './components/EmailConfirmation.js';
 import Detail from './components/Detail.js'
 import CreateNotice from './components/CreateNotice.js'
 import EditNotice from './components/EditNotice.js'
-
+import StudentInfo from './components/StudentInfo.js'
+import TeacherInfo from './components/TeacherInfo.js'
+import OtherInfo from './components/OtherInfo.js'
 
 const App = StackNavigator({
   Splash:{screen:Splash},
@@ -27,6 +29,9 @@ const App = StackNavigator({
   EditNotice:{screen:EditNotice},
   Login:{screen:Login},
   Dashboard:{screen:Dashboard},
+  StudentInfo:{screen:StudentInfo},
+  TeacherInfo:{screen:TeacherInfo},
+  OtherInfo:{screen:OtherInfo}
 },
 {
   headerMode : 'none'
